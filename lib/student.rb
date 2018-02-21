@@ -1,5 +1,5 @@
 class Student < User
-  KNOWLEDGE = []
+  @knowledge = []
 
   def learn(thing)
     KNOWLEDGE << thing
